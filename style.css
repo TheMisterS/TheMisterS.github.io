@@ -1,0 +1,45 @@
+body {
+    background-image: url(/images/background.png);
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+#line1{
+    border-top:0.2rem solid black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top:0;
+    margin-bottom: 2%;
+}
+
+#line2{
+    border-top:0.2rem solid black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top:0;
+    
+}
+.selectors {
+    font-family: 'Indie Flower', cursive;
+    font-size:12rem;
+}
+
+.container{
+    background-color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+.first{
+    width:20rem;
+    height: 32rem;
+
+
+}
+.boom{
+    width:20rem;
+    height: 29rem;
+}
