@@ -10,7 +10,8 @@ h1{
     margin-left: 1%;
     margin-right: 1%;
     margin-top:0;
-    margin-bottom: 2%;
+    padding-bottom:2%;
+    margin-bottom:0;
 }
 
 #line2{
@@ -42,4 +43,17 @@ h4{
 .boom{
     width:20rem;
     height: 29rem;
+}
+
+.display-flex {
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+    border-bottom:2px solid;
+}
+
+@media only screen and (max-width: 800px) {
+    .display-flex {
+        flex-direction: column;
+    }
 }
